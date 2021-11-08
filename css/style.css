@@ -1,0 +1,33 @@
+.row{ margin-left: 0; margin-right: 0; padding: 0px;}
+    
+.pink{
+    background: pink;
+
+}
+
+.black{
+    background: black;
+}
+.spacer{
+    padding-top: 25px;
+}
+
+img{
+    padding: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 1920px) {
+    img {max-width: 90%; align-content: center;}
+  }
+  
+@media screen and (min-width: 1921px) {
+    img {max-width: 60%; align-content: center;}
+  }
+
+@media screen and (max-width: 770px) {
+    img {max-width: 60%; align-content: center;}
+  }
